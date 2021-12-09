@@ -23,7 +23,6 @@ function insertionSort(nums) {
 
     nums[j + 1] = numberToInsert;
   }
-  console.log(nums);
   return nums;
 }
 

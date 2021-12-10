@@ -18,7 +18,21 @@
 */
 
 class ArrayList {
-  // code goes here
+  constructor() {
+    // instantiate all your variables
+  }
+  push(value) {
+    // add an item to the end of the array
+  }
+  pop() {
+    // remove the last value from the list
+  }
+  getIndex(index) {
+    // returns that item from the list
+  }
+  delete(index) {
+    // removes item from the array and collapses the array
+  }
 }
 
 // unit tests

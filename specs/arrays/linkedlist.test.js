@@ -40,7 +40,7 @@ class LinkedList {
     this.tail = node;
   }
   pop() {
-    return this.delete(this.length - 1);
+    return this.delete(this.length - 1); //
   }
   _find(index) {
     if (index >= this.length) return null;
